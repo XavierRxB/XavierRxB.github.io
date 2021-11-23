@@ -1,0 +1,86 @@
+body {background-color: black;
+    text-align: center;}
+
+img {border: 3px solid greenyellow;}
+
+.Grid {display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 20px;}
+
+.Wrong {grid-column: 2 / span 2;
+    grid-row: 2;}
+
+.Spørsmål {grid-column: 2 / span 2;
+    grid-row: 1;
+    border: 3px solid greenyellow;
+    margin: 10px;
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;}
+
+.En {color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    line-height: 1.5;
+    background-color: black;
+    border: 3px solid greenyellow;
+    margin: 10px;
+    grid-column: 2 / span 2;
+    grid-row: 2;}
+
+.To {color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    line-height: 1.5;
+    background-color: black;
+    border: 3px solid greenyellow;
+    margin: 10px;
+    grid-column: 2 / span 2;
+    grid-row: 3;}
+
+.Tre {color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    line-height: 1.5;
+    background-color: black;
+    border: 3px solid greenyellow;
+    margin: 10px;
+    grid-column: 2 / span 2;
+    grid-row: 4;}
+
+.Fire {color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    line-height: 1.5;
+    background-color: black;
+    border: 3px solid greenyellow;
+    margin: 10px;
+    grid-column: 2 / span 2;
+    grid-row: 5}
+
+.meny ul {list-style-type: none;
+    border: 3px solid greenyellow;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;}
+
+.meny li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+
+.meny li {float: left;}
+
+.meny li a:hover {background-color:gray;}
+
+.right li{float: right;}
+
+.right a {color: greenyellow;}
+
+.meny {font-family: 'Courier New', Courier, monospace;
+    color: greenyellow}
